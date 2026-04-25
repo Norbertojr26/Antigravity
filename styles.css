@@ -1772,11 +1772,16 @@ body.nav-open .nav-drawer-panel { transform: translateX(0); }
   .hero-video-inner::before {
     animation: none !important;
   }
+  .hero-title .word > span {
+    opacity: 1 !important;
+    transform: none !important;
+  }
   .reveal, .reveal-text > *, .reveal-stagger > * {
     transition: none !important;
     opacity: 1 !important;
     transform: none !important;
   }
+  .title-line::after { transition: none !important; width: 100% !important; }
 }
 
 /* Lock body scroll while drawer open */
